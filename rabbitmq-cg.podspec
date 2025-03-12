@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = "RabbitMQ client"
   s.homepage         = "https://github.com/rabbitmq/rabbitmq-objc-client"
   s.author           = { "Redaemon" => "pavlov.da.ios@gmail.com" }
-  s.ios.deployment_target = "15.0"
+  s.ios.deployment_target = "13.0"
   s.osx.deployment_target = "12.5"
   s.source           = { git: "https://github.com/redaemon/rabbitmq-cg.git", tag: "v#{s.version}" }
   s.source_files     = "RMQClient", "RMQClient/**/*.{h,m}"
